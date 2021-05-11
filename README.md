@@ -1,7 +1,7 @@
 # JuttuPujariPanchanga
 A simple python script which scrapes a particular day's Pachanga from "https://www.drikpanchang.com/" ,stores it in a json file and sends a formatted message from the json file to a telegram group.
 
-###### The project name "JuttuPujariPanchanga" is simply a funny name that I came with and means no disrespect to any individual or a profession.
+###### The project name "JuttuPujariPanchanga" is simply a funny name that I came with and means no disrespect to any individual or any profession.
 
 ### DESCRIPTION
 This main idea for the development of this program was to have a minimalist way of reading the panchanga of the day. This program uses an amazing module, called the "BeautifulSoup", which plays the major role in getting the data from the website to a normal form.
