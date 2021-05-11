@@ -27,9 +27,9 @@ Moreover the program overwrites the json file ,_"panchangam.json"_ every time th
 -	Put in the actual Bot token and the Telegram Group Chat ID in _"telegram_details.json"_ file
 -	Install the python dependencies
 
-`pip install -r requirements.txt`
+	`pip install -r requirements.txt`
 -	Just run the _"main.py"_ file
 
-`python main.py`
+	`python main.py`
 -	See the panchanga appear on your telegram group.
 
