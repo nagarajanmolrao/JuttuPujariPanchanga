@@ -33,3 +33,4 @@ Moreover the program overwrites the JSON file ,_"panchangam.json"_ every time th
 	`python main.py`
 -	See the panchanga appear on your telegram group.
 
+
