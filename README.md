@@ -1,5 +1,5 @@
 # JuttuPujariPanchanga
-A simple python script which scrapes a particular day's Pachanga from "https://www.drikpanchang.com/" ,stores it in a json file and sends a formatted message from the json file to a telegram group.
+A simple python script which scrapes a particular day's Pachanga from "https://www.drikpanchang.com/" ,stores it in a JSON file and sends a formatted message from the JSON file to a telegram group.
 
 ###### The project name "JuttuPujariPanchanga" is simply a funny name that I came with and means no disrespect to any individual or any profession.
 
@@ -16,7 +16,7 @@ The URL of the DrikPanchang site itself contains many query parameters:
 
 So with the help of these parameters one can generate panchanga for any location and for any date you want.
 
-Moreover the program overwrites the json file ,_"panchangam.json"_ every time the program runs.
+Moreover the program overwrites the JSON file ,_"panchangam.json"_ every time the program runs.
 
 #### INSTALLATION
 
