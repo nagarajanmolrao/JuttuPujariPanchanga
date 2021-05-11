@@ -21,6 +21,7 @@ Moreover the program overwrites the json file ,_"panchangam.json"_ every time th
 #### INSTALLATION
 
 -	Clone the GitHub repository and change into the directory
+
 	`git clone https://github.com/nagarajanmolrao/JuttuPujariPanchanga`
 -	Copy the _"telegram_details_template.json"_ to _"telegram_details.json"_
 -	Put in the actual Bot token and the Telegram Group Chat ID in _"telegram_details.json"_ file
