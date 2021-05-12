@@ -33,4 +33,19 @@ Moreover the program overwrites the JSON file ,_"panchangam.json"_ every time th
 	`python main.py`
 -	See the panchanga appear on your telegram group.
 
+##### DOCKER INSTRUCTIONS
+
+-	Clone the GitHub repository and change into the directory
+
+	`git clone https://github.com/nagarajanmolrao/JuttuPujariPanchanga`
+-	Copy the _"telegram_details_template.json"_ to _"telegram_details.json"_
+-	Put in the actual Bot token and the Telegram Group Chat ID in _"telegram_details.json"_ file
+-	To set at what time the message must be sent, change the time after the word _"tomorrow"_ in the sleep command in _"BotCronScript.sh"_ to any required time in 24HOUR format.
+-	Build the docker image
+
+	`docker build . -t juttu_pujari_panchanga`
+-	Run the docker image
+
+	`docker run -d juttu_pujari_panchanga`
+
 
