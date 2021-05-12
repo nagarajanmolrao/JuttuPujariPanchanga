@@ -1,11 +1,11 @@
 #!/bin/bash
-while [1]
+while [ true ]
 do
-	if [ -f "telegram_details.json"]
+	if [ -f "telegram_details.json" ]
 	then
 		python main.py
-		echo "Panchanga dispatched  at $(date)"
-		sleep $(($(date -f - +%s- <<< $'5 minustes\nnow')0))
+		echo "Panchanga dispatched  at $(date)" >> /proc/1/fd/1
+		sleep $(($(date -f - +%s- <<< $'tomorrow 04:30\nnow')0))
 	else
 		echo "Telegram Details File not available in WorkDir"
 	fi
